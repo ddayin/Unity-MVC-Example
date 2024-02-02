@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player_Controller : MonoBehaviour
 {
@@ -11,12 +9,6 @@ public class Player_Controller : MonoBehaviour
     {
         m_Model = transform.GetComponent<Player_Model>();
         m_View = transform.GetComponent<Player_View>();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
     // Update is called once per frame
